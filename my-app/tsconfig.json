@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app.tsx", "forminputmahasiswa.tsx", "forminputmahasiswa.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/app.tsx", "app/page.tsx"],
   "exclude": ["node_modules"]
 }
