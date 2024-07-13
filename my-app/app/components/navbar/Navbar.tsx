@@ -14,7 +14,7 @@ const Navbar = () => {
                     </Card.Text>
                 </Card.Body>
             </Card>
-            <div className='bg-secondary'>
+            <div className='bg-secondary stiky-md-top'>
                 <Nav defaultActiveKey="/home" as="ul" className="flex md:flex-row flex-col justify-between p-2">
                     <Nav.Item as="li">
                         <Button variant="secondary" href="/">Home</Button>

@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="bg-info-subtle">
-        <body className={inter.className} suppressHydrationWarning={true}>
+        <body className={inter.className} >
           <Navbar />
           {children}
         </body>

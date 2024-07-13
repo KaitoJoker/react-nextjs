@@ -57,6 +57,10 @@
 }
 
 Img {
+  width: 100%;
+  max-height: 300px;
+  min-height: 250px;
+  height: auto;
   transition: .3 ease all;
 }
 
