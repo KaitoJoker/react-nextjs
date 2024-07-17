@@ -31,8 +31,8 @@ const MovieCard = () => {
         <>
             {movieData && (
                 <div className='row'>
-                    {movieData.data.map((movie, index) => (
-                        <Card key={index} className="col-md-4 p-2 px-2 shadow-xl justify-content-between object-cover">
+                    {movieData.data.map((movie: any, index: number) => (
+                        <Card key={index} className="sm: col-md-2 col-md-4 p-2 px-2 shadow-xl object-cover">
                             <Card.Img variant="top" src={movie.foto} alt="Card image cap" />
                             <Card.Body className="bg-dark text-white">
                                 <Card.Title className="font-bold text-xl">{movie.judul}</Card.Title>

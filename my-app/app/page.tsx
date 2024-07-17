@@ -1,8 +1,7 @@
 "use client";
-import { Card, Carousel, Button } from 'react-bootstrap';
 import MovieCard from './components/movieCard/moviesCard';
 import MovieSlide from './components/carouselCard/MovieSlide';
-export default function Home() {
+const Home = () => {
   return (
     <div className='container'><br/>
       <MovieSlide />
@@ -14,3 +13,4 @@ export default function Home() {
   );
 }
 
+export default Home

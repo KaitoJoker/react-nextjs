@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { Card, Carousel, CarouselCaption, Image } from 'react-bootstrap';
+import { Card, Carousel} from 'react-bootstrap';
 
 const MovieSlide = () => {
   // Menginisialisasi state dengan tipe yang tepat
